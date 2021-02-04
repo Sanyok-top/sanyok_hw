@@ -1,0 +1,310 @@
+/* ! подключаем шрифты */
+/*?  Montserrat */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+/*? Druk Wide */
+@font-face {
+    font-family: 'Druk Wide bold';
+    src:url("../fonts/DrukWide-Bold.woff2") format('woff2'),
+       url("../fonts/DrukWide-Bold.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide';
+    src:url("../fonts/Druk-WideMedium.woff2") format('woff2'),
+       url("../fonts/Druk-WideMedium.woff") format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*! стили обнуления */
+*,*::before,*::after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a,
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: inherit;
+	font-size: inherit;
+}
+img{vertical-align: top;}
+
+body{
+	color:#000;
+	font-family:'Times New Roman', Times, serif;
+}
+
+/* -------------------------- */
+body{
+	background-color: #794f453d;
+}
+
+.header{
+	margin: 100px 0px 0px 100px;
+	background-color: #794f45;
+	height: 100px;
+	padding: 30px 0px 0px 0px;
+
+}
+
+.riot{
+	display: inline-block;
+	margin: 0px 0px 0px 50px;
+	
+}
+
+.rectangle{
+	display: inline-block;
+	margin: 0px 0px 0px 50px;
+}
+
+.logo{
+	display: inline-block;
+	margin: 0px 0px 0px 50px;
+}
+
+.game{
+	font-family:  Montserrat, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color:#000;
+	text-shadow: 5px 5px 5px #DB3C4A;
+	display: inline-block;
+	margin: 0px 0px 0px 200px;
+}
+
+.champions{
+	font-family: Montserrat, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color:#000;
+	text-shadow: 5px 5px 5px #DB3C4A;
+	display: inline-block;
+	margin: 0px 0px 0px 100px;
+}
+
+.news{
+	font-family: Montserrat, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color:#000;
+	text-shadow: 5px 5px 5px #DB3C4A;
+	display: inline-block;
+	margin: 0px 0px 0px 100px;
+}
+
+.patch__notes{
+	font-family: Montserrat, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color:#000;
+	text-shadow: 5px 5px 5px #DB3C4A;
+	display: inline-block;
+	margin: 0px 0px 0px 100px;
+}
+
+.discover{
+	font-family: Montserrat, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color:#000;
+	text-shadow: 5px 5px 5px #DB3C4A;
+	display: inline-block;
+	margin: 0px 0px 0px 100px;
+}
+
+.esports{
+	font-family: Montserrat, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color:#000;
+	text-shadow: 5px 5px 5px #DB3C4A;
+	display: inline-block;
+	margin: 0px 0px 0px 100px;
+}
+
+.universe{
+	font-family: Montserrat, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color:#000;
+	text-shadow: 5px 5px 5px #DB3C4A;
+	display: inline-block;
+	margin: 0px 0px 0px 100px;
+}
+
+.shop{
+	font-family: Montserrat, serif;
+	font-size: 24px;
+	font-weight: bold;
+	color:#000;
+	text-shadow: 5px 5px 5px #DB3C4A;
+	display: inline-block;
+	margin: 0px 0px 0px 100px;
+}
+
+
+.name{
+	font-family:  'Druk Wide';
+	font-size: 156px;
+	line-height: 204px;
+	text-align: center;
+	text-shadow: 5px 5px 5px #DB3C4A;
+	
+}
+
+.block {
+	max-width: 724px;
+	height: 248px; 
+	padding: 31px 0px 0px 0px;
+	margin: 100px 0px 0px 100px;
+	background-color: #794f45;
+}
+.block__basic {
+	font-family: "Druk Wide bold", serif;
+	margin: 0px 0px 0px 58px;
+	font-style: normal;
+	font-size: 40px;
+	line-height: 52px;
+	color: #C4C4C4;
+
+
+}
+
+.block__slow{
+	font-family: "Druk Wide bold", serif;
+	margin: 32px 0px 0px 58px;
+
+}
+.block__1 {
+	
+	max-width: 190px; 
+	height: 182px;
+	margin: -80px 0px 0px 416px;
+}
+.icon__1 {
+	margin: -220px 0px 0px 485px;
+}
+.inline {
+	font-family: Montserrat, serif;
+	margin: -100px 0px 0px 58px;
+	display: block;
+	width: 315px;
+	height: 56px;
+}
+
+.block2{
+	/* max-width:1600px ; */
+	min-height: 917px;
+	
+}
+
+.block2__scrol1{
+	
+	font-size: 32px;
+	margin: 50px 0px 0px 100px;
+	max-width: 520px;
+	max-height: 917px;
+	color: #fff; 
+	background-color:#794f45;
+	overflow: auto;
+	
+}
+
+.block2__scrol2{
+	margin: -917px 0px 0px 940px;
+	max-width: 520px;
+	max-height: 917px;
+	background-color:#1F2326;
+	overflow: auto;
+
+	
+}
+
+.block2__scrol3{
+	font-family: Montserrat, serif;
+	font-size: 32px;
+	margin:-917px 0px 0px 1860px;
+	max-width: 520px;
+	max-height: 917px;
+	color: #fff; 
+	background-color:#794f45;
+	overflow: auto;
+}
+
+.scrol__white{
+	background-color: #fff;
+}
+
+.inline__block{
+	font-size: 32px;
+	font-style: italic;
+	font-weight: 700;
+	display: inline-block;
+	margin: 100px 200px 200px 100px;
+
+
+}
+
+.item{
+	background-color: #7A956B;
+}
+
+.item_1{
+	background-color: blue;
+	display: inline-block;
+	padding:20px 20px 20px 20px;
+	margin: 10px;
+
+}
+
+.item_2{
+	background-color: #fff;
+	color:#000;
+	display: block;
+	padding: 20px;
+	margin: 10px;
+	overflow: visible;
+	height: 500px;
+
+}
+.item_3{
+	background-color: green;
+	display: block;
+	padding: 20px;
+	margin: -10px 10px 10px 10px;
+}
+.item_4{
+	background-color: red;
+	display: inline-block;
+	overflow: auto;
+	height: 500px;
+	margin: 10px;
+	padding: 20px;
+
+}
+
+
+
+
+
+

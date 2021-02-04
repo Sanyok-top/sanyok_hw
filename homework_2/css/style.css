@@ -1,0 +1,126 @@
+/* стили обнуления */
+*,*::before,*::after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li{
+	list-style: none;
+}
+a,
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: inherit;
+	font-size: inherit;
+}
+img{vertical-align: top;}
+/* -------------------------- */
+/* 
+*{
+	color:blue;
+}
+ */
+.preface__item > span{
+	color: chartreuse;
+}
+ h2{
+	 color: chocolate;
+ }
+span{
+	color: red;
+}
+
+
+
+.header {
+	color: darkblue;
+}
+
+.link__1 {
+	color: brown;
+}
+
+.link__2 {
+	color: blue;
+}
+/*  */
+.main {
+	 color: darkgreen; 
+}
+.main .preface{
+
+	 /* color: darkred;  */
+}
+.title {
+	color: black;
+}
+.preface__item + *{
+
+	color: maroon;
+}
+
+.preface {
+	color:blue;
+}
+
+#about__book{
+	color: blue;
+}
+
+.about__book span{
+	color: gold;
+}
+
+div.about__book h2{
+	color: darkred;
+}
+
+.about__book h2 {
+	color: black;
+}
+
+.about__book {
+	color: brown;
+}
+
+.structure__item ~ p{
+	color: lightcoral;
+
+}
+
+.structure h3, .intended h3 {
+	color:black;
+}
+
+.intended h3{
+	/* color: indigo; */
+}
+
+.structure {
+	color:green;
+}
+
+.intended {
+	color: blue;
+
+}
+
+.intended__item + p{
+	color: darkred;
+}
+
+
+.link {
+	color: darkblue;
+}
+

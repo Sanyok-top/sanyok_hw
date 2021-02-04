@@ -1,0 +1,228 @@
+/* подrлючение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Banny-BoldRound';
+  src:url("../fonts/Banny-BoldRound.woff") format('woff'),
+      url("../fonts/Banny-BoldRound.woff2") format('woff2');
+}
+
+
+/* стили обнуления */
+*,*::before,*::after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li{
+	list-style: none;
+}
+a,
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: inherit;
+	font-size: inherit;
+}
+img{vertical-align: top;}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	line-height: 1;
+}
+/* -------------------------- */
+.menu{
+	text-align: center;
+}
+.link{
+	
+	font-size: 16px;
+	font-style: normal;
+}
+.restaurant{
+	font-size: 12px;
+	line-height: 117%;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+}
+
+.restaurant1{
+	font-size: 12px;
+	line-height: 117%;
+	font-style: oblique;
+	font-weight: 700;
+	text-align: center;
+	text-decoration:;
+	text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.597),1px -1px 10px rgba(255, 0, 0, 0.981);
+}
+/* ? название ресторана шрифт по умолчанию Open Sans*/
+.name2{
+	font-size: 96px;
+	line-height: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #dd2c00;
+}
+/*? название ресторана со шрифтом по макету Banny-BoldRound */
+.name{
+	font-family: 'Banny-BoldRound';
+	font-size: 96px;
+	line-height: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	color: #dd2c00;
+	 text-shadow: 1px 1px 10px rgba(165, 42, 42, 0.159),1px 1px 20px rgba(140, 13, 13, 0.535),1px 1px 30px rgba(140, 13, 13, 0.9); */
+}
+
+.block__name1,.block__name2,.block__name3,.block__name4,.block__name5,.block__name6,.block__name7,.block__name8{
+	font-family: 'Banny-BoldRound';
+	/* font-style: italic; */
+	font-size: 96px;
+	line-height: 100%;
+	text-transform: uppercase;
+	color: #10375c;
+	text-align: center;
+	text-shadow: 5px 5px 10px #000;
+	/* text-shadow: 1px 1px 10px rgba(6, 6, 102, 0.755),3px 3px 20px rgba(6, 6, 102, 0.535),5px 5px 30px rgba(6, 6, 102, 0.2); */ */
+}
+.block__name1 span{
+	color: #fff;
+	text-shadow: none;
+}
+.block__name2 span {
+	color: #fff;
+	text-shadow: none;
+}
+
+.block__name3 span {
+	color: #fff;
+	text-shadow: none;
+}
+
+.block__name4 span {
+	color: #fff;
+	text-shadow: none;
+}
+
+.block__name5 span {
+	color: #fff;
+	text-shadow: none;
+}
+
+.block__name6 span {
+	color: #fff;
+	text-shadow: none;
+}
+
+.block__name7 span {
+	color: #fff;
+	text-shadow: none;
+}
+
+.block__name8 span {
+	color: #fff;
+	text-shadow: none;
+}
+
+/* ? невидимый текст */
+.inconspicuous{
+	font-family: 'Banny-BoldRound';
+	font-size: 96px;
+	line-height: 190%;
+	text-align: center;
+	text-transform: uppercase;
+	color:#fff;
+	text-shadow:1px 1px 5px #000, 5px 5px 20px rgba(165, 42, 42, 0.933)
+}
+
+
+/* ? выравниваем картинку по центру с помощю text-align для строчныхтегов (span) */
+.imghead{
+	text-align: center;
+	color: #fff;
+}
+
+
+.block2{
+	font-family: 'Banny-BoldRound';
+	font-size: 36px;
+	line-height: 250%;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: -5px -5px 10px #000;
+
+}
+
+
+/* ? выравниваем картинку по правому краю с помощю text-align (для строчныхтегов (span)) */
+.img2{
+	text-align: right;
+	 color: #fff; 
+}
+
+.block2__paragraph2 {
+	
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 170%;
+	text-align: center;
+}
+
+ .block2__paragraph1 { 
+	
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 156%;
+	text-align: center;
+}
+ 
+.block2__paragraph2 span{
+
+	text-decoration: underline;
+}
+
+
+/* ? text-aling мастер шеф  по центру center*/
+
+.block3__master{
+	font-family: Banny;
+	font-size: 36px;
+	line-height: 200%;
+	text-transform: uppercase;
+	text-align: center;
+	color:#fff;
+	text-shadow:1px 1px 5px #000, 5px 5px 20px rgba(165, 42, 42, 0.933)
+}
+
+.block4__menu1 {
+	font-family: Banny;
+	font-size: 36px;
+	line-height: 400%;
+	text-transform: uppercase;
+	text-align: center;
+	color:#fff;
+	text-shadow:1px 1px 5px #000, 5px 5px 20px rgba(165, 42, 42, 0.933)
+}
+	
+.block4__pizza{
+font-family: Banny;
+font-size: 18px;
+line-height: 18px;
+}
+
+.block4__pizza span{
+text-decoration: line-through;
+}

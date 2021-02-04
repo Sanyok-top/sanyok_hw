@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Banny-BoldRound';
+  src: url(./Banny-BoldRound.woff) format('woff'),
+       url(./Banny-BoldRound.woff2) format('woff2');
+}
