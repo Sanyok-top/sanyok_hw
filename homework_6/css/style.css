@@ -1,0 +1,532 @@
+/* ! подключаем шрифты */
+/*?   */
+@import url("https://fonts.googleapis.com/css?family=Monda:regular,700&display=swap");
+
+/*! стили обнуления */
+*,*::before,*::after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a,
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: inherit;
+	font-size: inherit;
+}
+img{vertical-align: top;}
+
+body{
+	color:#000;
+	font-family:'Times New Roman', Times, serif;
+	font-size: 24px;
+}
+
+/* -------------------------- */
+
+.conteinar {
+	max-width: 1110px;
+	padding: 50px 0 50px 0;
+	background-color: rgba(72, 98, 185, 0.2);
+	margin: 0px auto;
+}
+
+
+.header {
+	
+	
+}
+.menu {background-color: rgb(13, 172, 53);
+	margin: 20px 0px 0px 0px;
+
+}
+
+.menu__list{
+	font-size: 0px;
+	margin: 0px 0px 50px 0px;
+}
+
+.menu__list li {
+	display: inline-block;
+	background-color: #0c4b09;
+	margin: 0px 10px 0px 10px;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	max-width: 200px; 
+	
+}
+.link {
+	color: white;
+	font-size: 14px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	
+}
+
+.border{
+	font-family: Monda, serif;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	text-shadow: 5px 5px 5px rgba(236, 10, 10, 0.597);
+	margin: 50px 0px 50px 0px;
+}
+
+.border__block{
+	background-color: rgb(224, 83, 83);
+	max-width: 555px;
+	margin: 0px auto 50px;
+	padding: 15px;
+	border: 2px solid rgb(119, 16, 16);
+}
+
+span{
+	font-weight: 700;
+	text-decoration: underline ;
+	font-size: 24px;
+}
+
+.border__block-2{
+	background-color: #8aa7ee;
+	padding: 15px;
+	max-width: 555px;
+	margin: 0px auto 50px;
+	border: 10px solid rgb(3, 14, 97);
+}
+
+.border__block-1{
+	background-color: #77608d;
+	max-width: 555px;
+	padding: 15px;
+	margin: 0px 0px 50px 0px;
+	border: 10px dotted #551294;
+}
+
+.border__block-3{
+	background-color: #7A956B;
+	max-width: 555px;
+	padding: 15px;
+	margin: 0px 0px 50px auto;
+	border: 10px dashed#4b8b28;
+}
+
+.border__block-4{
+	background-color: #c2613e;
+	max-width: 555px;
+	padding: 15px;
+	margin: 0px auto 50px;
+	border: 10px double #97310c;
+	/* border: 10px outset #97310c;	 */
+
+}
+
+.border__block-5{
+	background-color: #794f45;
+	max-width: 555px;
+	padding: 15px;
+	margin: 0px 0px 50px 0px;
+	border-top: 10px solid rgb(194, 12, 12);
+	
+}
+
+.border__block-6{
+	background-color: rgb(25, 220, 74);
+	max-width: 555px;
+	padding: 15px;
+	margin: 0px auto 50px;
+	border-bottom: 10px dashed rgb(194, 12, 12);
+}
+
+.border__block-7{
+	background-color: #fff;
+	color: blue;
+	max-width: 555px;
+	padding: 15px;
+	margin: 0px 0px 50px auto;
+	border-left: 10px dotted rgb(194, 12, 12);
+	border-right: 10px dotted  rgb(194, 12, 12);
+}
+
+.inline{
+	border: 5px dashed rgb(9, 126, 28);
+	background-color:rgb(93, 209, 136);
+	font-size: 24px;
+	line-height: 40px;
+	
+}
+/* ! border-radius */
+
+.border-radius{
+	font-family:Monda, serif;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 20px;
+	text-shadow: 5px 5px 5px rgba(236, 10, 10, 0.597);
+	margin: 50px 0px 50px 0px;
+}
+
+.br__block{
+	background-color: rgb(224, 83, 83);
+	max-width: 555px;
+	margin: 0px auto 50px;
+	padding: 15px;
+	border: 2px solid rgb(119, 16, 16);
+	border-radius: 30px;
+}
+
+.br__block-1{
+	background-color: rgb(127, 183, 235);
+	border: 2px solid rgb(5, 62, 116);
+	border-radius: 20px 40px 60px 80px;
+	max-width: 555px;
+	margin: 0px 0px 50px 0px;
+	padding: 15px 15px 15px 25px;
+}
+
+.br__block-2{
+	background-color: #158bba;
+	max-width: 555px;
+	padding: 15px;
+	margin: 50px auto;
+	border: 5px dashed #ff6550;
+	border-radius: 10px 50px;
+}
+
+.br__block-3{
+	background-color: rgb(66, 202, 77);
+	border: 5px dotted rgb(6, 84, 12);
+	max-width: 555px;
+	padding: 15px;
+	margin: 0px 0px 50px auto;
+	border-radius: 80px;
+	overflow: hidden;
+}
+
+/* ? border-radius smile */
+.br__smile{
+	margin: 0px 0px 300px 0px;
+	
+}
+
+.br__smile-rad{
+	background-color: rgb(233, 245, 18);
+	max-width: 400px;
+	height: 400px;
+	margin: 0px auto 50px;
+	border: 5px solid rgb(9, 9, 92);
+	border-radius: 50%; 
+	overflow: hidden;
+	padding:90px 15px;
+	text-align: center;
+	font-size: 16px;
+}
+.br__smile-smile{
+	background-color: rgb(153, 4, 4);
+	max-width: 200px;
+	height: 100px;
+	border-radius: 0px 0px 200px 200px ;
+	margin: -190px auto;
+	font-size: 14px;
+	color: #fff;
+}
+
+.br__smile-optic__left {
+	background-color: rgb(9, 9, 92);
+	max-width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin: -250px 0px 0px 620px;
+
+}
+.br__smile-optic__right{
+	background-color: rgb(9, 9, 92);
+	max-width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin: -60px 0px 0px 430px;
+}
+
+.fantom-{
+	height: 300px;
+}
+
+/* ? border-radius и картинка */
+
+.border-rad-img{
+	font-size: 24px;
+}
+
+.br__rad__img{
+	background-color: rgb(28, 232, 119);
+	border: 3px solid rgb(5, 87, 42);
+	border-radius: 40px;
+	max-width: 555px;
+	padding: 15px;
+	margin: 10px 0px 20px 0px;
+}
+
+.image{
+	max-width: 100px;
+	height: 100px;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 50px 100px 50px 0px;
+}
+/* ? border-radius и строчній обьект  */
+.inline-2{
+	font-size: 24px;
+	border-radius: 50%;
+	border: 5px dashed rgb(6, 95, 31);
+	line-height: 40px;
+	background-color: rgb(93, 209, 136);
+}
+/* ! box-shadow */
+.box-shadow{
+	font-family:Monda, serif;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 20px;
+	text-shadow: 5px 5px 5px rgba(236, 10, 10, 0.597);
+	margin: 50px 0px 50px 0px;
+}
+
+.box__shadow{
+	background-color: rgb(224, 83, 83);
+	max-width: 555px;
+	margin: 0px auto 50px;
+	padding: 15px;
+	border: 2px solid rgb(119, 16, 16);
+	box-shadow:0px 5px 0px 0px rgb(53, 6, 6);
+	border-radius: 30px;
+}
+
+.block-13{
+	background-color: #4f77faa8;
+	margin: 0px 0px 100px 0px;
+	padding: 15px;
+	box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.796), 15px 12px 5px 5px rgba(192, 8, 8, 0.796);
+	max-width: 555px;
+}
+
+.block-14{
+	background-color: #1cc92a;
+	max-width: 555px;
+	margin: 0px auto 100px;
+	padding: 15px;
+	box-shadow: -10px -10px 5px 5px rgba(0, 0, 0, 0.796), -15px -12px 5px 10px rgba(192, 8, 8, 0.796);
+}
+
+.block-15{
+	background-color: rgb(211, 83, 44);
+	max-width: 555px;
+	margin: 0px 0px 100px auto;
+	padding: 15px;
+	box-shadow: 0px 0px 42px 31px rgba(0,0,0,1), 0px 0px 42px 31px rgb(206, 7, 7);
+	
+}
+/* ? .box-shadow с параметром inset */
+.block-16{
+	background-color: rgb(44, 97, 211);
+	max-width: 555px;
+	margin: 0px 0px 100px 0;
+	padding: 15px;
+	box-shadow:inset 0px 0px 30px 20px rgb(33, 3, 114);
+}
+
+.inset{
+	font-size: 24px;
+	margin: 0px 0px 50px 0px;
+}
+
+/* ? .box-shadow с .border-radius */
+
+.bs-br{
+	font-size: 24px;
+	margin: 0px 0px 50px 0px;
+	text-align: center;
+}
+
+.block-17{
+	background-color: rgb(26, 153, 73);
+	max-width: 555px;
+	margin: 0px auto 100px;
+	padding: 15px;
+	color: #fff;
+	box-shadow:inset 0px 0px 32px 1px rgb(2, 61, 7), 0px 0px 42px 31px rgba(0, 0, 0, 0.529);	
+	border-radius: 10px 10px 10px 10px;
+}
+
+/* ! filter свойство отображения тени для каринок с неправильным рельефом */
+
+.filter__name{
+	font-family: Mnda, serif;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 20px;
+	text-shadow: 5px 5px 5px rgba(236, 10, 10, 0.597);
+	margin: 50px 0px 10px 0px;
+
+}
+
+ h3{
+	text-align: center;
+	font-size: 24px;
+	margin: 0px 0px 150px 0px;
+	text-shadow: 5px 5px 5px rgba(236, 10, 10, 0.597);
+}
+
+
+.image__flame{
+	max-width: 300px;
+	height: 300px;
+	margin: 0px 50px 50px 0px;
+	filter: drop-shadow(30px 1px 4px rgba(253, 0, 0, 0.987));
+
+}
+
+.image__tree{
+	max-width: 300px;
+	height: 300px;
+	margin: 0px 50px 50px 0px;
+	filter: drop-shadow(-30px -1px 4px rgba(17, 85, 3, 0.987));
+}
+
+.image__dinosaur{
+	max-width: 300px;
+	height: 300px;
+	margin: 0px 50px 50px 0px;
+	filter: drop-shadow(1px -20px 2px rgba(39, 41, 39, 0.987));
+}
+
+/* ! Opasity устанавливает уровень прозрачности обьекта его значения от 0 до 1  */
+
+.opasity__name{
+	font-family: Mnda, serif;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 20px;
+	text-shadow: 5px 5px 5px rgba(236, 10, 10, 0.597);
+	margin: 50px 0px 10px 0px;
+}
+
+.opasity__info{
+	background-color: rgb(224, 83, 83);
+	max-width: 555px;
+	margin: 0px auto 50px;
+	padding: 5px;
+	border: 2px solid rgb(119, 16, 16);
+	box-shadow:0px 5px 0px 0px rgb(53, 6, 6);
+	border-radius: 30px;
+	font-size: 18px;
+}
+
+.opasity__block{
+	background-color: #794f45;
+	border: 1px solid #000;
+	box-shadow: 5px 5px 5px 5px #000;
+	max-width: 555px;
+	padding: 15px;
+	margin: 0px 0 50px 0;
+	opacity: 0.2;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+.opasity__block-1{
+	background-color: #794f45;
+	border: 1px solid #000;
+	box-shadow: 5px 5px 5px 5px #000;
+	max-width: 555px;
+	padding: 15px;
+	margin: 0px auto 50px;
+	opacity: 0.5;
+	font-size: 32px;
+}
+
+.opasity__block-2{
+	background-color: #a2695b;
+	border: 1px solid #a2695b;
+	box-shadow: 5px 5px 5px 5px #a2695b;
+	max-width: 555px;
+	padding: 15px;
+	margin: 0px 0px 50px auto;
+	opacity: 1;
+	font-size: 32px;
+	
+}
+
+.visibility__name, .outline__name, .visibility__opasity__name {
+	font-family: Mnda, serif;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 20px;
+	text-shadow: 5px 5px 5px rgba(236, 10, 10, 0.597);
+	margin: 50px 0px 10px 0px;
+}
+.visibility__info, .outline__info {
+	background-color: rgb(224, 83, 83);
+	max-width: 555px;
+	margin: 0px auto 50px;
+	padding: 5px;
+	border: 2px solid rgb(119, 16, 16);
+	box-shadow:0px 5px 0px 0px rgb(53, 6, 6);
+	border-radius: 30px;
+	font-size: 18px;
+}
+/* ! VISIBILITY & OPASITY */
+.block__v-o{
+	background-color: #7A956B;
+	max-width: 555px; 
+	border: 3px solid  #173a04;
+	box-shadow: 0px 5px 0px 0px #193d05 ;
+	border-radius:30px;
+	padding: 15px;
+	margin: 0px auto 50px;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease 0s;
+}
+
+.visibility__opasity:hover .block__v-o{
+	opacity: 1;
+	visibility:visible;
+}
+
+.button{
+	background-color: rgb(238, 93, 25);
+	border: 1px solid rgb(165, 55, 3);
+	box-shadow: 3px 3px 0px 0px rgb(112, 40, 7);
+	color: #fff;
+	font-family:Monda, serif;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	display: block;
+	line-height: 23px;
+	padding: 15px 10px;
+	text-align: center;
+	max-width: 350px;
+
+}
+

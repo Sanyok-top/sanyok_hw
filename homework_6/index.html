@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>practice_1</title>
+	</head>
+	<body>
+		<div class="conteinar">
+			<header class="header">
+				<nav id="menu" class="menu">
+					<ul class="menu__list">
+						<li>
+							<a href="#border" class="link">BORDER</a>
+						</li>
+						<li>
+							<a href="#border-radius" class="link">BORDER-RADIUS</a>
+						</li>
+						<li>
+							<a href="#box-shadow" class="link">BOX-SHADOW</a>
+						</li>
+						<li>
+							<a href="#filter" class="link">FILTER</a>
+						</li>
+						<li>
+							<a href="#opasity" class="link">OPASITY</a>
+						</li>
+						<li>
+							<a href="#visibility" class="link">VISIBILITY</a>
+						</li>
+						<li>
+							<a href="#outline" class="link">OUTLINE</a>
+						</li>
+						
+					</ul>
+				</nav>
+			</header>
+			<main class="main">
+				<h1 id="border" class="border">BORDER</h1>
+				<div class="border__block">
+					Универсальное свойство <span>border</span> позволяет одновременно установить толщину,
+					стиль и цвет границы вокруг элемента. <br>
+					border: 1px solid #000; (размер стиль цвет) <br>
+					Основные стили -solid dotted dashed double
+				</div>
+				
+				<div class="border__block-1">
+					background-color: #77608d;<br>
+					width: 555px;<br>
+					padding: 15px;<br>
+					margin: 0px 0px 50px 0px;<br>
+					<mark>border: 10px dotted #551294;</mar>
+				</div>
+				<div class="border__block-2">
+					background-color: #8aa7ee;<br>
+					padding: 15px;<br>
+					width: 555px;<br>
+					margin: 0px auto 50px;<br>
+					<mark>border: 10px solid rgb(3, 14, 97);</mark>
+				</div>
+				<div class="border__block-3">
+					background-color: #7A956B;<br>
+					width: 555px;<br>
+					padding: 15px;<br>
+					margin: 0px 0px 50px auto;<br>
+					<mark>border: 10px dashed #4b8b28;</mar>
+				</div>
+				<div class="border__block-4">
+					background-color: #c2613e;<br>
+					width: 555px;<br>
+					padding: 15px;<br>
+					margin: 0px auto 50px;<br>
+					<mark>border: 10px double #97310c;</mar>
+				</div>
+				<div class="border__block-5">
+					background-color: #794f45;<br>
+					width: 555px;<br>
+					padding: 15px;<br>
+					margin: 0px 0px 50px 0px;<br>
+					<mark>border-top: 10px solid rgb(194, 12, 12);</mark>
+				</div>
+				<div class="border__block-6">
+					background-color: rgb(25, 220, 74);<br>
+					width: 555px;<br>
+					padding: 15px;<br>
+					margin: 0px auto 50px;<br>
+					<mark>border-bottom: 10px dashed rgb(194, 12, 12);</mark>
+				</div>
+				<div class="border__block-7">
+					background-color: #fff;<br>
+					color: blue;<br>
+					width: 555px;<br>
+					padding: 15px;<br>
+					margin: 0px 0px 50px auto;<br>
+					<mark>
+						border-left: 10px dotted rgb(194, 12, 12);<br>
+						border-right: 10px dotted rgb(194, 12, 12);<br>
+					</mark>
+				</div>
+
+				<span class="inline">
+					<mark>BORDER ДЛЯ СТРОЧНОГО ОБЬЕКТА</mark> <br> Lorem ipsum dolor sit amet
+					consectetur adipisicing elit. Beatae maxime sequi eos corporis rem aliquid
+					distinctio odit modi omnis porro eligendi non, quia aperiam quam, saepe
+					possimus necessitatibus aspernatur accusantium.
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque nobis iste
+					exercitationem, velit ad ut recusandae eveniet dicta commodi odio, itaque
+					non. Quaerat eligendi suscipit libero aut. Quidem, deleniti id.
+				</span>
+				<p id="border-radius" class="border-radius">BORDER-RADIUS</p>
+				<div class="br__block">
+					<span>border-radius</span> <br>
+					Устанавливает радиус скругления уголков блока. <br>
+					border-radius:50%; - круг <br>
+					Можно использовать вместе с overflow: hidden;
+				</div>
+				<div class="br__block-1">
+					background-color: rgb(127, 183, 235);<br>
+					border: 2px solid rgb(5, 62, 116);<br>
+					width: 555px;<br>
+					margin: 0px 0px 50px 0px;<br>
+					padding: 15px 15px 15px 25px;<br>
+					<mark>border-radius: 20px 40px 60px 80px;</mark>
+				</div>
+				<div class="br__block-2">
+					background-color: #158bba;<br>
+					width: 555px;<br>
+					padding: 15px;<br>
+					margin: 50px auto;<br>
+					border: 5px dashed #ff6550;<br>
+					<mark>border-radius: 10px 50px;</mark>
+				</div>
+				<div class="br__block-3">
+					<mark>b</mar>ackground-color: rgb(66, 202, 77);<br>
+					border: 5px dotted rgb(6, 84, 12);<br>
+					<mark>
+						border-radius: 80px;<br>
+						overflow: hidden;<br>
+					</mark>
+					width: 555px;<br>
+					<mark>m</mark>argin: 0px 0px 50px auto;<br>
+					
+				</div>
+				<div class="br__smile">
+						<div class="br__smile-rad">
+							background-color: rgb(47, 180, 14);<br>
+							width: 400px;<br>
+							height: 400px;<br>
+							margin: 0px auto 50px;<br>
+							border: 10px dotted rgb(161, 8, 67);<br>
+							overflow: hidden;<br>
+							padding: 15px;<br>
+							border-radius: 50%;<br>
+						</div>
+						<div class="br__smile-smile">
+							border-radius:0px0px200px200px;
+						</div>
+						<div class="br__smile-optic__left">
+
+						</div>
+						<div class="br__smile-optic__right">
+
+						</div>
+						<div class="fantom-2"></div>
+					</div>
+					<div>
+					<p class="border-rad-img"><mark>BORDER-RADIUS ДЛЯ КАРТИНКИ</mar></p>
+						<div class="br__rad__img">
+							width: 100px;<br>
+							height: 100px;<br>
+							display: inline-block;<br>
+							border-radius: 50%;<br>
+							margin: 50px 100px 50px 0px;<br>
+						</div>
+					<img src="img/facebook.png" alt="" class="image">
+					<img src="img/instagram.png" alt="" class="image">
+					<img src="img/telegram.png" alt="" class="image">
+					<img src="img/twitter.png" alt="" class="image">
+					<img src="img/youtube.png" alt="" class="image">
+				</div>
+				<span class="inline-2">
+					<mark>BORDER-RADIUS ДЛЯ СТРОЧНОГО ОБЬЕКТА</mark> <br> Lorem ipsum dolor sit
+					amet consectetur adipisicing elit. Beatae maxime
+					sequi eos corporis rem aliquid distinctio odit modi omnis porro eligendi
+					non, quia aperiam quam, saepe possimus
+					necessitatibus aspernatur accusantium.
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque nobis iste
+					exercitationem, velit ad ut recusandae
+					eveniet dicta commodi odio, itaque non. Quaerat eligendi suscipit libero
+					aut. Quidem, deleniti id.
+				</span>
+				<p id="box-shadow" class="box-shadow">BOX-SHADOW</p>
+				<div class="box__shadow">
+					<span>box-shadow</span>
+					Добавляет тень к элементу. <br>
+					box-shadow: сдвиг_по_гориз сдвиг_по_верт радиус расстояние<br>
+					Можно добавить много теней. На тень влияет свойство border-radius.
+				</div>
+				<div class="block-13">
+					background-color: #4f77faa8;<br>
+					margin: 0px 0px 50px 0px;<br>
+					padding: 15px;<br>
+					max-width: 555px;<br>
+					<mark>box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.796), 15px 12px 5px 5px
+						rgba(192, 8, 8, 0.796);</mark>
+				</div>
+				<div class="block-14">
+					background-color: #1cc92a;<br>
+					max-width: 555px;<br>
+					margin: 0px auto 50px;<br>
+					padding: 15px;<br>
+					<mark>box-shadow: -10px -10px 5px 5px rgba(0, 0, 0, 0.796), -15px -12px 5px
+						10px rgba(192, 8, 8, 0.796);</mark>
+				</div>
+				<div class="block-15">
+					background-color: rgb(211, 83, 44);<br>
+					max-width: 555px;<br>
+					margin: 0px 0px 50px auto;<br>
+					padding: 15px;<br>
+					<mark>box-shadow: 0px 0px 42px 31px rgba(0,0,0,1), 0px 0px 42px 31px
+						rgb(206,7,7);</mar>
+				</div>
+				<p class="inset"> <MARK>BOX-SHADOW c параметром INSET</MAR></p>
+				<div class="block-16">
+					background-color: rgb(44, 97, 211);<br>
+					max-width: 555px;<br>
+					margin: 0px 0px 100px 0;<br>
+					padding: 15px;<br>
+					<mark>box-shadow: inset 0px 0px 30px 20px rgb(33, 3, 114);</mar>
+				</div>
+				<div class="block__16">
+
+				</div>
+				<p class="bs-br"><mark>BOX-SHADOW с BORDER-RADIUS</mar></p>
+				<div class="block-17">
+					background-color: rgb(26, 153, 73);<br>
+					max-width: 555px;<br>
+					margin: 0px auto 100px;<br>
+					padding: 15px;<br>
+					color: #fff;<br>
+					<mark>
+						box-shadow:inset 0px 0px 32px 1px rgb(2, 61, 7), 0px 0px 42px 31px rgba(0,
+						0, 0, 0.529);<br>
+						border-radius: 10px 10px 10px 10px;
+					</mark>
+				</div>
+				<div class="filter">
+					<h2 id="filter" class="filter__name">FILTER</h2>
+					<h3>(свойство отображения тени для каринок с неправильным рельефом filter:
+						drop-shadow(30px 1px 4px rgba(253, 0, 0, 0.987)[смещение тени по
+						горизонтали px, смещение тени по вертикали px, размытость тени px, цвет ])</h3>
+					<img src="img/flame.png" alt="пламя" class="image__flame">
+					<img src="img/dinosaur.png" alt="динозавр" class="image__dinosaur">
+					<img src="img/tree.png" alt="дерево" class="image__tree">
+
+				</div>
+				<div id="opasity" class="opasity">
+					<h2 class="opasity__name">OPASITY</h2>
+					<div class="opasity__info">
+						<span>opacity</span>
+						Определяет уровень прозрачности элемента. <br>
+						Отличие opacity:0; от display:none; в том что блок не убирается из верстки а только становиться прозрачным, то есть
+						занимаемое им место остается. Так же, с прозрачными элементами все еще можно взаимодействовать, например кликать по
+						ссылкам. <br>
+						(устанавливает уровень прозрачности обьекта его значения от 0 до 1)
+					</div>
+					<div class="opasity__block">
+						opacity: 0.2;
+					</div>
+					<div class="opasity__block-1">
+						opacity: 0.5;
+					</div>
+					<div class="opasity__block-2">
+						opacity: 1;
+					</div>
+				</div>
+				<div id="visibility" class="visibility">
+					<h2 class="visibility__name">VISIBILITY</h2>
+					<div class="visibility__info">
+						<span>visibility</span>
+						Предназначен для отображения или скрытия элемента. <br>
+						Отличие visibility: hidden; от display:none; в том что блок не убирается из верстки а только скрывается, то есть
+						занимаемое им место остается. <br>
+						Отличие visibility: hidden; от opacity:0; в том что блок скрывается и взаимодействовать с ним нельзя.
+					</div>
+				</div>
+				<div id="outline" class="outline">
+					<h2 class="outline__name">OUTLINE</h2>
+					<div class="outline__info">
+						<span>outline</span>
+						Универсальное свойство, одновременно устанавливающее цвет,
+						стиль и толщину внешней границы на всех четырех сторонах элемента.
+						В отличие от линии, задаваемой через border, свойство outline
+						не влияет на положение блока и его ширину.
+						Также нельзя задать параметры линии на отдельных сторонах элемента,
+						outline применяется сразу ко всем четырём сторонам.
+					</div>
+					<div class="visibility__opasity__name">	
+							VISIBILITY & OPASITY
+					</div>
+					<div  class="visibility__opasity">
+						<div class="block__v-o">
+							<span>.block__v-o</span>{<br>
+							background-color: #7A956B;<br>
+							width: 555px;<br>
+							border: 3px solid #173a04;<br>
+							box-shadow: 0px 5px 0px 0px #193d05 ;<br>
+							border-radius:30px;<br>
+							padding: 15px;<br>
+							margin: 0px auto 50px;<br>
+							<mark>
+								opacity: 0;<br>
+								visibility: hidden;<br>
+								transition: all 0.3s ease 0s;<br>
+							</mark>
+							} <br>
+							
+							<span>.visibility__opasity:hover .block__v-o</span>{<br>
+							<mark>
+								opacity: 1;<br>
+								visibility:visible;<br>
+							</mark>
+							}
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<a href="#menu" class="button">MENU</a>
+			</footer>
+		</div>
+	</body>
+</html>
