@@ -1,0 +1,513 @@
+/* ! подключаем шрифты */
+/*?   */
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,500,600,700&display=swap");
+
+/*! стили обнуления */
+*,*::before,*::after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a,
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: inherit;
+	font-size: inherit;
+}
+img{vertical-align: top;}
+
+body{
+	color:#000;
+	font-family:'Times New Roman', Times, serif;
+	font-size: 24px;
+}
+
+/* -------------------------- */
+
+.conteinar {
+	max-width: 1200px;
+	padding: 50px 0 50px 0;
+	background: linear-gradient(to right, rgba(30,87,153,1) 0%,rgba(125,185,232,0) 100%);
+	margin: 0px auto;
+}
+
+.header {
+	margin: 0px 0px 50px 0px;
+
+}
+
+.list li {
+	background-color: rgb(67, 79, 235,0.5);
+	border: 1px solid rgb(2, 5, 49);
+	box-shadow: 0px 5px 0px 0px rgb(1, 3, 36);
+	border-radius: 40px;
+	max-width: 300px;
+	display: block;
+	width: 100%;
+	padding: 15px 10px 15px 10px;
+	line-height: 20px;
+	text-align: center;
+	margin: 0px 0px 15px 60px;
+}
+
+.link {
+	font-family:Lora, serif;
+	font-weight: 700;
+	color:#fff;
+	font-size: 18px;
+	text-shadow: 3px 3px 3px  rgb(2, 5, 49), 0px 0px 20px red ;
+}
+
+.backgraund {
+	
+	height: 700px;
+	background: url('../img/car1-2jpg.jpg') 0 0 no-repeat;
+}
+
+.backgraund p{
+	font-size: 18px;
+	display: inline-block;
+	margin: 0px 0px 10px 50px;
+	color: #000;
+	font-weight: 700;
+	
+}
+
+.backgraund h1 {
+	font-family:Lora, serif;
+	padding: 20px 0px 10px 150px;
+	font-size: 80px;
+	color: rgb(163, 22, 22);;
+	font-weight: 700;
+	text-shadow: 2px 2px 5px rgb(197, 10, 10);
+	letter-spacing: 10px;
+}
+
+.backgraund-color{
+	height: 900px;
+	background: url('../img/palitra-fon.jpg') 0 0 no-repeat;
+}
+
+ h2{
+	font-family:Lora, serif;
+	padding: 20px 0px 20px 150px;
+	font-size: 50px;
+	color: rgb(163, 22, 22);
+	font-weight: 700;
+	text-shadow: 2px 2px 5px #fff;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.backgraund-color p{
+	color: rgb(214, 29, 29);
+	padding: 0px 0px 20px 300px;
+}
+
+ .backgraund-color span{ 
+	color: rgb(119, 61, 20);
+	font-weight: 700;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 2px;
+}
+
+.backgraund-color__default{
+	color: blue;
+	width: 450px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 40px;
+	box-shadow: 0px 5px 0px 0px rgba(14, 14, 14, 0.049);
+	margin: 0px 100px 40px 0px;
+	padding: 15px;
+	display: inline-block;
+}
+
+.backgraund-color__default h4{
+	color: rgb(6, 6, 141);
+	text-decoration: underline;
+}
+
+ span{ 
+	color:#000;
+	font-weight: 700;
+	background-color: rgba(255, 0, 0, 0.549);
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.red{
+	color: rgb(160, 10, 10);
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.backgraund-color__color{
+	background-color: rgb(34, 39, 192);
+	box-shadow: 0px 5px 0px 0px rgb(3, 5, 67) ;
+	width: 450px;
+	border-radius: 40px;
+	margin: 0px 0px 40px 0px;
+	display: inline-block;
+	color: #000;
+	padding: 15px;
+	
+}
+
+.backgraund-color__rgb{
+	background-color: rgb(21, 204, 42);
+	box-shadow: 0px 5px 0px 0px rgb(3, 72, 11);
+	width: 450px;
+	border-radius: 40px;
+	margin: 0px 100px 0px 100px; 
+	display: inline-block;
+	padding: 15px;
+}
+
+.backgraund-color__rgba{
+	background-color: rgb(204, 109, 21,0.6);
+	box-shadow: 0px 5px 0px 0px rgb(84, 43, 5);
+	width: 450px;
+	border-radius: 40px;
+	display: inline-block;
+	padding: 15px;
+}
+
+.backgraund-image p, .bacgraund-repeat p, .bacground-position p, .bacgraund-size p, .bacgraund-attachment p, .multiple__bacground p{
+	background-color: rgb(113, 197, 242);
+	box-shadow: 0px 0px 5px 2px red;
+	text-shadow: 2px 2px 10px red;
+	border-radius: 40px;
+	margin: 0px auto;
+	max-width: 700px;
+	padding: 15px;
+	text-align: center;
+	color: #000;
+	margin: 0px auto 30px;
+	
+}
+
+.backgraund-image h2, .bacgraund-repeat h2, .bacgraund-repeat h2, .bacground-position h2, .bacgraund-size h2, .bacgraund-attachment h2, .multiple__bacground h2{
+	text-align: center;
+	color: rgb(7, 7, 148);
+	text-shadow: 0px 0px 5px red;
+	margin: 0px 0px 30px 0px; 
+	padding: 0;
+} 
+
+.backgraund-image__foto{
+	background: rgb(221, 216, 216) url('../img/car1-1.jpg') 0 0 no-repeat;
+	padding: 15px 15px 15px 550px;
+	height: 390px;
+	margin: 0px auto 50px;
+	box-shadow: 0px 0px 5px 2px blue;
+	
+}
+
+.backgraund-image__linear{
+background-image: linear-gradient(to left, rgba(30,87,153,0), rgba(30,87,153,0.8), rgba(30,87,153,1),
+                      rgba(30,87,153,1), rgba(41,137,216,1), rgba(30,87,153,1), rgba(30,87,153,1),
+                      rgba(30,87,153,0.8),rgba(30,87,153,0));
+ color: #000;
+ padding: 15px;
+ margin: 0px auto 30px;
+ box-shadow: 0px 0px 5px 2px red ;
+ border-radius: 40px;
+}
+
+.backgraund-image__radial{
+background: radial-gradient(ellipse at center, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1) 25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 58%,rgba(162,218,245,1) 83%,rgba(189,243,253,1) 100%);padding: 15px;
+margin: 0px auto 50px;
+border-radius: 20px;
+box-shadow:inset 0px 0px 15px 2px #000;
+}
+
+.bacgraund-repeat span{ 
+	font-size:40px;
+	font-weight: 700;
+	color: rgb(72, 2, 2);
+}
+
+ span.ident{  
+	font-size: 24px;
+	color: #000;
+	display: inline-block;
+	background-color: greenyellow;
+	margin: 0px 0px 0px 250px;
+} 
+
+.bacgraund-repeat__no-repeat {
+	background:greenyellow url('../img/car-1jpg.jpg') 0 0 no-repeat;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 0 0 400px;
+	height: 500px;
+	margin: 0px 0px 30px 0px;
+	
+}
+.bacgraund-repeat__repeat {
+	background:greenyellow url('../img/car-1jpg.jpg') 0 0 repeat;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 0 0 400px;
+	height: 700px;
+	margin: 0px 0px 30px 0px;
+}
+.bacgraund-repeat__repeat-x {
+	background:greenyellow url('../img/car-1jpg.jpg') 0 0 repeat-x;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 0 0 400px;
+	height: 500px;
+	margin: 0px 0px 30px 0px;
+}
+.bacgraund-repeat__repeat-y {
+	background:greenyellow url('../img/car-1jpg.jpg') 0 0 repeat-y;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 0 0 400px;
+	height: 700px;
+	margin: 0px 0px 30px 0px;
+}
+.bacgraund-repeat__space {
+	background:greenyellow url('../img/car-1jpg.jpg') 0 0 space;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 0 0 300px;
+	height: 900px;
+	margin: 0px 0px 30px 0px;
+}
+.bacgraund-repeat__round {
+	background:greenyellow url('../img/car-1jpg.jpg') 0 0 round;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 0 0 300px;
+	height: 700px;
+	margin: 0px 0px 30px 0px;
+}
+
+.bacgraund-repeat__pattern{
+	background:greenyellow url('../img/bg_repeat.jpg') 0 0 repeat;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 0 0 300px;
+	height: 700px;
+	margin: 0px 0px 30px 0px;
+}
+
+.pattern__image{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background:greenyellow url('../img/bg_repeat.jpg') center no-repeat;
+	margin: 100px 100px 100px 100px;
+	padding: 50px 0px 0px 70px;
+}
+
+.bacgraund-repeat-x__pattern{
+	background: url('../img/bg_repeat.jpg') 0 0 repeat-x, greenyellow url('../img/bg_repeat.jpg') 0 0 repeat-y;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 0 0 300px;
+	height: 700px;
+	margin: 0px 0px 50px 0px;
+}
+
+
+.bacground-position__topleft{
+	background:rgb(153, 142, 142) url('../img/car-2png.png') 0 0 no-repeat;
+	border-radius: 40px;
+	box-shadow: 0 0 5px 2px rgb(245, 4, 4);
+	height: 700px;
+	padding: 20px 0px 0px 700px;
+	margin: 0px 0px 50px 0px;
+}
+
+.bacground-position__left{
+	background:rgb(104, 209, 63) url('../img/car-2png.png') 0 50% no-repeat;
+	border-radius: 40px;
+	box-shadow: 0 0 5px 2px rgb(245, 4, 4);
+	height: 700px;
+	padding: 20px 0px 0px 700px;
+	margin: 0px 0px 50px 0px;
+}
+
+.bacground-position__center{
+	background:rgb(201, 68, 39) url('../img/car-2png.png') 50% 50% no-repeat;
+	border-radius: 40px;
+	box-shadow: 0 0 5px 2px rgb(245, 4, 4);
+	height: 700px;
+	padding: 10px;
+	margin: 0px 0px 50px 0px;
+}
+
+.bacground-position__right{
+	background:rgb(39, 196, 201) url('../img/car-2png.png') 100% 100%  no-repeat;
+	border-radius: 40px;
+	box-shadow: 0 0 5px 2px rgb(245, 4, 4);
+	height: 700px;
+	padding: 10px;
+	margin: 0px 0px 50px 0px;
+}
+
+.bacground-position__position{
+	background:rgb(106, 39, 201) url('../img/car-2png.png') 50% 100%  no-repeat;
+	border-radius: 40px;
+	box-shadow: 0 0 5px 2px rgb(245, 4, 4);
+	height: 700px;
+	padding: 10px;
+	margin: 0px 0px 50px 0px;
+}
+
+.bacgraund-size__autoauto{
+	background:rgb(201, 27, 14,0.5) url('../img/car-1jpg.jpg') 0 50% /auto auto no-repeat;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 20px 20px 650px;
+	height: 500px;
+	margin: 0px 0px 30px 0px;
+}
+
+.bacgraund-size__widthauto{
+	background:rgba(216, 122, 115, 0.5) url('../img/car-1jpg.jpg') 0 100% /100% auto no-repeat;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 0 0 400px;
+	height: 900px;
+	margin: 0px 0px 30px 0px;
+}
+
+.bacgraund-size__heightauto{
+	background:rgba(216, 122, 115, 0.5) url('../img/car-1jpg.jpg') -150px 100% / auto 100% no-repeat;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 30px 10px 10px 660px;
+	height: 500px;
+	margin: 0px 0px 30px 0px;
+}
+
+.bacgraund-size__100{
+	background:rgba(216, 122, 115, 0.5) url('../img/car-1jpg.jpg') 0 0 / 100% 100% no-repeat;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 15px 0 0 300px;
+	height: 500px;
+	margin: 0px 0px 30px 0px;
+	
+}
+
+span.white{ 
+	color: white;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+.bacgraund-size__contain{
+	background:rgba(78, 169, 218, 0.5) url('../img/car-1jpg.jpg') 0 0 / contain no-repeat;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 15px 0 0 300px;
+	height: 500px;
+	margin: 0px 0px 30px 0px;
+}
+
+.bacgraund-size__cover{
+	background:rgba(78, 218, 78, 0.5) url('../img/car-1jpg.jpg') 0 0 / cover no-repeat;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 0 0 300px;
+	height: 500px;
+	margin: 0px 0px 30px 0px;
+}
+
+.bacgraund-size__px{
+	background:rgba(78, 218, 78, 0.5) url('../img/car-1jpg.jpg') 0 0 / 300px 400px no-repeat;
+	border-radius: 400px 100px 40px 40px;
+	box-shadow: 0px 0px 5px 2px rgb(72, 2, 2);
+	padding: 20px 0 0 300px;
+	height: 500px;
+	margin: 0px 0px 50px 0px;
+}
+
+.bacgraund-attachment__scroll{
+	background: url('../img/car1-1.jpg') center / cover no-repeat scroll;
+	height: 900px;
+	border-radius:40px;
+	padding: 20px;
+	margin: 0px 0px 50px 0px;
+}
+
+.bacgraund-attachment__fixed{
+	background: url('../img/car1-1.jpg') center / cover no-repeat fixed;
+	height: 900px;
+	border-radius:40px;
+	padding: 40px ;
+	margin: 0px 0px 50px 0px;
+}
+
+.multiple__bacground-1{
+	background: url('../img/car1-1.jpg') 50%  no-repeat,url('../img/bg_repeat.jpg') 0 0 repeat-x, url('../img/bg_repeat.jpg') 0 100% repeat-x, url('../img/bg_repeat.jpg') 0 0 repeat-y,url('../img/bg_repeat.jpg') 100% 0 repeat-y ;
+	height: 900px;
+	margin: 0px 0px 50px 0px;
+}
+
+.list-1{
+	margin: 0px 0px 50px 0px;
+}
+
+.list-1 li {
+	background: url('../img/paint-palette.png') 0 0 / 40px 40px no-repeat;
+	margin: 0px 0px 10px 30px;
+	padding: 0px 0px 0px 50px;
+}
+
+
+
+.link-1 {
+	font-family:Lora, serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+	text-shadow: 1px 1px 5px rgb(255, 2, 2);
+
+}
+
+.button{
+
+border-radius: 40px;
+box-shadow: 0px 5px 0px 0px rgb(96, 1, 1);
+display: block;
+margin: 0px 0px 50px 50px;
+max-width: 300px;
+padding: 15px 10px;
+font-family: Lora, serif;
+font-size: 30px;
+color: #fff;
+text-align: center;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 2px;
+background:rgb(237, 32, 32);
+
+}
+
+.text{
+background:rgb(237, 32, 32) url('../img/paint-palette.png') 0 0 / auto 100% no-repeat;
+padding: 0px 0px 0px 45px;
+
+}
+
