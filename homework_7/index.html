@@ -9,8 +9,7 @@
 	<body>
 		<div class="conteinar">
 			<header class="header">
-				<menu id="bacgraund" class="backgraund">
-					<h1>BACGROUND</h1>
+				<h1>BACGROUND</h1>
 					<p>Это универсальное CSS свойство позволяет одновременно задать несколько
 						параметров фона, а именно определить цвет,
 						установить фоновое изображение, задать начальное положение фонового
@@ -21,6 +20,8 @@
 						background может быть указана градиентная заливка
 						фона.
 					</p>
+				<nav id="bacgraund" class="backgraund">
+					
 					<ul class="list">
 						<li>
 							<a href="#backgraund-color" class="link">BACKGRAUND-COLOR</a>
@@ -44,7 +45,7 @@
 							<a href="#multiple__bacground" class="link">MULTIPLE BACGROUND</a>
 						</li>
 					</ul>
-				</menu>
+				</nav>
 			</header>
 			<main>
 				<div id="backgraund-color" class="backgraund-color">
@@ -61,7 +62,7 @@
 						Или: <br>
 						<span>.block{</span> <br>
 						background-color: transparent; <br>
-						<span>}</spa>
+						<span>}</span>
 					</div>
 					<div class="backgraund-color__color">
 						<h4>Цветной</h4>
@@ -114,8 +115,7 @@
 								.block{ <br>
 								background-image: url('../img/1-tesla.jpg'); <br>
 								} <br>
-							
-						</div>
+							</div>
 						<div class="backgraund-image__linear">
 							<p>УСТАНАВЛИВАЕТ ЛИНЕЙНЫЙ ГРАДИЕНТ</p>
 							Градиентом называют плавный переход от одного цвета к другому, причём самих цветов и переходов между ними может быть
@@ -127,7 +127,6 @@
 							rgba(30,87,153,1), rgba(41,137,216,1), rgba(30,87,153,1), rgba(30,87,153,1),
 							rgba(30,87,153,0.8),rgba(30,87,153,0)); <br> 
 							}
-
 						</div>
 						<div class="backgraund-image__radial">
 							<p>УСТАНАВЛИВАЕТ РАДИАЛЬНЫЙ ГРАДИЕНТ</p>
@@ -285,8 +284,8 @@
 					<h2>BACGRAUND-SIZE</h2>
 					<p>
 						Масштабирует фоновое изображение согласно заданным размерам.
-						<значение> - Задает размер в любых доступных для CSS единицах.
-							<проценты> - Задает размер фоновой картинки в процентах от ширины или высоты элемента.Либо специальным значением (auto, contain, cover).
+						(значение) - Задает размер в любых доступных для CSS единицах.
+							(проценты) - Задает размер фоновой картинки в процентах от ширины или высоты элемента.Либо специальным значением (auto, contain, cover).
 					</p>
 					<div class="bacgraund-size__autoauto">
 						<span> Pазмер картинки по умолчанию (auto auto)</span> <br> Если задано одновременно для ширины и высоты (auto auto), размеры фона остаются исходными;<br>
@@ -421,7 +420,6 @@
 						background-position: 0 0; <br>
 						background-attachment: scroll; <br>
 						}
-
 					</div>
 					<div class="bacgraund-attachment__fixed">
 						<span>fixed</span> <br> Делает фоновое изображение элемента неподвижным, а так же устанавливает фоновое изображение относительно окна браузера. <br> 
@@ -446,10 +444,8 @@
 						
 					</div>
 				</div>
-
 			</main>
 			<footer class="footer">
-				
 				<ul class="list-1">
 					<li>
 						<a href="#backgraund-color" class="link-1">BACKGRAUND-COLOR</a>
@@ -476,6 +472,6 @@
 				<a href="#bacgraund" class="button">
 					<span class="text">BACGROUND</span>
 				</a>
-
 			</footer>
-		</body>
+		</div>
+	</body>
