@@ -72,13 +72,13 @@ body{
 	text-shadow: 3px 3px 3px  rgb(2, 5, 49), 0px 0px 20px red ;
 }
 
-.backgraund {
+.header {
 	
 	height: 700px;
 	background: url('../img/car1-2jpg.jpg') 0 0 no-repeat;
 }
 
-.backgraund p{
+.header p{
 	font-size: 18px;
 	display: inline-block;
 	margin: 0px 0px 10px 50px;
@@ -87,7 +87,7 @@ body{
 	
 }
 
-.backgraund h1 {
+.header h1 {
 	font-family:Lora, serif;
 	padding: 20px 0px 10px 150px;
 	font-size: 80px;
