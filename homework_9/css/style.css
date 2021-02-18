@@ -1,0 +1,694 @@
+/* ! подключаем шрифты */
+/*?   */
+@import url("https://fonts.googleapis.com/css?family=Lora:regular,500,600,700&display=swap");
+
+/*! стили обнуления */
+*,*::before,*::after{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li{
+	list-style: none;
+}
+a,
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: inherit;
+	font-size: inherit;
+}
+img{vertical-align: top;}
+
+body{
+	color:#000;
+	font-family:'Times New Roman', Times, serif;
+	font-size: 24px;
+}
+
+/* -------------------------- */
+
+
+
+/* .header{
+	
+	background-color:rgb(52, 52, 229);
+	
+}
+
+.header__container {
+	max-width: 80%;
+	margin: 0px auto;
+}
+.header__menu {
+}
+.header__list {
+	font-size: 0;
+}
+
+.header__list>li{
+	position: relative;
+	display: inline-block;
+	margin: 0px 40px 0px 0px;
+}
+
+.header__list li:last-child{
+	margin-right: 0px;
+}
+
+.header__link {
+	font-family:Lora, serif;
+	font-weight: 700;
+	font-size: 24px;
+	color: yellowgreen;
+	text-transform: uppercase;
+	padding: 10px 0px;
+	display: inline-block;
+}
+
+.header__sub-list {
+	position: absolute;
+	left: 0px;
+	top: 100%;
+	background-color:orange;
+	padding: 15px;
+
+}
+
+.header__sub-list li{
+	margin: 0px 0px 10px 0px;
+}
+
+.header__sub-list li:last-child{
+	margin-bottom: 0px ;
+}
+
+.header__sub-link {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+} */
+
+/* ! ABTOMOБИЛЬ */
+.conteyner{ 
+	background: url('../img/eberhard.jpg') 0 0 / 1300px 1000px no-repeat;
+	margin:0px auto;
+	max-width: 1300px;
+	height: 1000px;
+}
+.car-body {
+	padding: 480px 0px 0px 0px;
+
+}
+/* ! верхняя часть автомобиля */
+
+/* ?лобовое стекло */
+
+.windshield{
+	background-color: #2d5563;
+	border-radius: 280px 0px 20px 22px / 140px 0px 7px 0px;
+	width: 260px;
+	height: 135px;
+	position:relative;
+	top: 32px;
+	left: 450px;
+	z-index: 19;
+	
+}
+
+.car-body__top {
+	background-color: #044056;
+	box-shadow: inset 0px 20px 40px #d1dee3;
+	border-radius: 280px 0px 20px 22px / 140px 0px 7px 0px;
+	width: 260px;
+	height: 140px;
+	position: relative;
+	top: 0px;
+	left: 5px;
+	z-index: 20;
+}
+
+.door{
+	background-color: #044056;
+	border: 1px solid #000;
+	border-radius: 280px 0px 20px 22px / 190px 0px 0px 0px;
+	width: 150px;
+	height: 100px;
+	position: relative;
+	top: 35px;
+	left: 5px;
+	z-index: 50;
+}
+
+.door__glass{
+	background-color: #000;
+	border-radius: 280px 0px 20px 22px / 190px 0px 0px 0px;
+	width: 130px;
+	height: 80px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+	z-index: 51;
+}
+
+.door__glass:hover{
+	background:#fff url('../img/like.png') 10px 10px / 150px 150px no-repeat;
+}
+
+
+/* *зеркало      */
+.door__mirror{
+	background-color: #cb270a;
+	box-shadow: 20px 0px 20px #fff;
+	border-radius: 14px 4px 4px 14px;
+	width: 15px;
+	height: 22px;
+	position: absolute;
+	top: 50px;
+	left: 7px;
+	z-index: 52;
+}
+
+.rear-glass{
+	background-color: #000;
+	border-radius: 40px 10px 10px 10px;
+	width: 60px;
+	height: 75px;
+	position:relative;
+	top: -70px;
+	left: 190px;
+	
+}
+
+/*! Нижняя часть автомобиля */
+ .car-body__bottom {  
+	background-color:#044056;
+	box-shadow: inset 0px 20px 60px #d1dee3;
+	border-radius:100% 0% 94% 6% / 27% 100% 0% 73%  ;
+	width: 610px;
+	height: 110px;
+	margin: 0px 0px 0px 300px;
+	position: relative;
+	z-index: 21;
+} 
+
+.bottom__door{
+	background-color:#044056;
+	box-shadow: inset 0px 20px 60px #d1dee3;
+	border: 1px solid #000 ;
+	border-radius:0px 0px 10px 5px;
+	width: 145px;
+	height: 90px;
+	position: absolute;
+	top: 4px;
+	left: 165px;
+	z-index: 50;
+}
+/* ручка двери */
+.pen__door{
+	background-color:  #cb270a;
+	border: 1px solid #000;
+	border-radius: 10px;
+	width: 25px;
+	height: 5px;
+	position: relative;
+	top:10px;
+	left: 110px;
+
+}
+/* логотип на дверях */
+.logo{
+	background: url('../img/like.png') center/ 40px 40px no-repeat;
+	border-radius: 50%;
+	border: 2px solid  #cb270a;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+	
+}
+/* передняя фара */
+.front__light{
+	background-color: rgb(224, 220, 220);
+	border-radius: 5px 20px 0px 5px;
+	box-shadow: -10px 0px 40px #fff;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 35px;
+	left: -6px;
+}
+
+/* поворотник */
+.turn-signal{ 
+	background-color:  #cb270a;
+	border: 1px solid #000;
+	border-radius: 5px;
+	width: 15px;
+	height: 5px;
+	position: relative;
+	top:30px;
+	left: 120px;
+}
+
+/* ?переднее крыло */
+.car-fender__frond{
+	background-color: #a5b0b400;
+	border-radius: 200px 200px 20px 20px;
+	width: 140px;
+	height: 80px;
+	border: 19px solid  #cb270a;
+	position: relative;
+	top: 0px;
+	left: 20px;
+	z-index: 22;
+	
+
+}
+/* ? заднее крыло */
+.car-fender__rear{
+	background-color: #a5b0b400;
+	border-radius: 200px 200px 20px 20px;
+	width: 140px;
+	height: 80px;
+	border: 19px solid  #cb270a;
+	position: relative;
+	bottom: 80px;
+	left: 420px;
+	z-index: 24;
+}
+/*? передний бампер  */
+.car-bumper__frond{
+	background-color: #cb270a;
+	width: 50px;
+	height: 50px;
+	border-radius: 100% 0% 46% 54% / 10% 100% 0% 90% ;
+	position: relative;
+	bottom:125px ;
+	left: -13px;
+	z-index: 25;
+}
+/*? порог */
+.car-threshold{
+	background-color: #cb270a;
+	box-shadow: 0px 20px 40px #d1dee3;
+	width: 280px;
+	height: 19px;
+	position: relative;
+	bottom: 150px;
+	left: 150px;
+	z-index: 22;
+}
+/*? задний бампер */
+.car-bumper__rear{
+	background-color: #cb270a;
+	box-shadow: 0px 20px 40px #d1dee3;
+	width: 80px;
+	height: 50px;
+	border-radius: 95% 5% 100% 0% / 0% 45% 55% 100%   ;
+	position: relative;
+	bottom:193px ;
+	left:545px;
+	z-index: 22;
+	
+}
+
+
+/* ? передняя подвеска  */
+/* *амортизатор передний */
+.front__absorber{
+	background-color: #000;
+	height: 40px;
+	width: 10px;
+	position: relative;
+	bottom: 260px;
+	left: 85px;
+	z-index: 23;
+
+}
+
+.trucks-front-0 {
+	border-radius: 50% 50% 51% 49% / 77% 77% 23% 23% ;
+ 	background-color: rgba(255, 255, 255, 0);
+	box-shadow:10px 10px 10px #000 ;
+ 	border: 7px dotted #000;
+	width: 142px;
+	height: 111px;
+	position: relative;
+	bottom: 270px ;
+	left:18px ;
+	z-index:29;
+}
+
+.trucks-front {
+	border-radius: 50% 50% 51% 49% / 77% 77% 23% 23% ;
+ 	background-color: rgba(255, 255, 255, 0);
+	box-shadow:2px 2px 2px #000 ;
+ 	border: 5px solid #000;
+	width: 136px;
+	height: 109px;
+	position: relative;
+	bottom:6px ;
+	left:-6px ;
+	z-index:30;
+
+
+}
+
+.front__big-wheel {
+	border-radius: 50%;
+	background-color: rgb(168, 161, 161);
+	border:2px dotted #000;
+	width: 70px;
+	height: 70px;
+	position: relative;
+	left: 30px;
+	z-index:33 ;
+}
+
+.small__wheel {
+	border-radius: 50%;
+	background-color:#fff;
+	border:2px dotted #000;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 22px;
+	left:22px;
+	z-index:35 ;
+}
+
+
+
+.front__middle-wheel-1 {
+	border-radius: 50%;
+	background-color:rgb(168, 161, 161);
+	border:2px dotted #000;
+	width: 45px;
+	height: 45px;
+	position:relative ;
+	bottom: 20px;
+
+}
+
+.middle__nut-1 {
+	border-radius: 50%;
+	background-color:#fff;
+	border:2px solid #000;
+	width: 7px;
+	height: 7px;
+	position: relative;
+	top: 17px;
+	left:17px;
+
+	
+}
+
+.front__middle-wheel-2 {
+	border-radius: 50%;
+	background-color:rgb(168, 161, 161);
+	border:2px dotted #000;
+	width: 45px;
+	height: 45px;
+	position:relative ;
+	bottom: 65px;
+	left: 85px;
+}
+
+.middle__nut-2 {
+	border-radius: 50%;
+	background-color:#fff;
+	border:2px solid #000;
+	width: 7px;
+	height: 7px;
+	position: relative;
+	top: 17px;
+	left:17px;
+}
+
+.front__small-wheel-1 {
+	border-radius: 50%;
+	background-color:rgb(168, 161, 161);
+	border:2px dotted #000;
+	width: 25px;
+	height: 25px;
+	position:relative ;
+	bottom: 85px;
+	left: 40px;
+
+}
+
+.small__nut-1 {
+	border-radius: 50%;
+	background-color:#fff;
+	border:2px solid #000;
+	width: 7px;
+	height: 7px;
+	position: relative;
+	top: 7px;
+	left:7px;
+}
+
+.front__small-wheel-2 {
+	border-radius: 50%;
+	background-color:rgb(168, 161, 161);
+	border:2px dotted #000;
+	width: 25px;
+	height: 25px;
+	position:relative ;
+	bottom: 110px;
+	left:65px;
+
+}
+
+.small__nut-2 {
+	border-radius: 50%;
+	background-color:#fff;
+	border:2px solid #000;
+	width: 7px;
+	height: 7px;
+	position: relative;
+	top: 7px;
+	left:7px;
+}
+
+/* ? задняя подвеска */
+/* *амортизатор задний */
+.rear__absorber{
+	background-color:#000;
+	height: 40px;
+	width: 10px;
+	position: relative;
+	bottom: 410px;
+	left: 485px;
+	z-index: 40;
+
+}
+
+
+.trucks-rear-0 {
+	border-radius: 50% 50% 51% 49% / 77% 77% 23% 23% ;
+ 	background-color: rgba(255, 255, 255, 0);
+	box-shadow:10px 10px 10px #000 ;
+ 	border: 7px dotted #000;
+	width: 142px;
+	height: 111px;
+	position: relative;
+	bottom:425px ;
+	left:420px ;
+	z-index:43;
+}
+
+.trucks-rear {
+	border-radius: 50% 50% 51% 49% / 77% 77% 23% 23% ;
+ 	background-color: rgba(255, 255, 255, 0);
+	box-shadow:2px 2px 2px #000 ;
+ 	border: 5px solid #000;
+	width: 136px;
+	height: 109px;
+	position: relative;
+	bottom:6px ;
+	left:-4px ;
+	z-index:46;
+
+}
+
+.rear__big-wheel {
+	border-radius: 50%;
+	background-color: rgb(168, 161, 161);
+	border:2px dotted #000;
+	width: 70px;
+	height: 70px;
+	position: relative;
+	left: 30px;
+	z-index:48 ;
+
+}
+
+.rear__small-wheel {
+	border-radius: 50%;
+	background-color:#fff;
+	border:2px dotted #000;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 22px;
+	left:22px;
+	z-index:49 ;
+
+}
+
+.rear__middle-wheel-1 {
+	border-radius: 50%;
+	background-color:rgb(168, 161, 161);
+	border:2px dotted #000;
+	width: 45px;
+	height: 45px;
+	position:relative ;
+	bottom: 20px;
+	left: 0px;
+
+}
+
+.rear__middle-nut-1 {
+	border-radius: 50%;
+	background-color:#fff;
+	border:2px solid #000;
+	width: 7px;
+	height: 7px;
+	position: relative;
+	top: 17px;
+	left:17px;
+
+}
+
+.rear__middle-wheel-2 {
+	border-radius: 50%;
+	background-color:rgb(168, 161, 161);
+	border:2px dotted #000;
+	width: 45px;
+	height: 45px;
+	position:relative ;
+	bottom: 65px;
+	left: 85px;
+}
+
+.rear__middle-nut-2 {
+	border-radius: 50%;
+	background-color:#fff;
+	border:2px solid #000;
+	width: 7px;
+	height: 7px;
+	position: relative;
+	top: 17px;
+	left:17px;
+}
+
+.rear__small-wheel-1 {
+	border-radius: 50%;
+	background-color:rgb(168, 161, 161);
+	border:2px dotted #000;
+	width: 25px;
+	height: 25px;
+	position:relative ;
+	bottom: 85px;
+	left: 40px;
+
+}
+
+.rear__small-nut-1 {
+	border-radius: 50%;
+	background-color:#fff;
+	border:2px solid #000;
+	width: 7px;
+	height: 7px;
+	position: relative;
+	top: 7px;
+	left:7px;
+
+}
+
+.rear__small-wheel-2 {
+	border-radius: 50%;
+	background-color:rgb(168, 161, 161);
+	border:2px dotted #000;
+	width: 25px;
+	height: 25px;
+	position:relative ;
+	bottom: 110px;
+	left:65px;
+}
+
+.small__nut-2{
+	border-radius: 50%;
+	background-color:#fff;
+	border:2px solid #000;
+	width: 7px;
+	height: 7px;
+	position: relative;
+	top: 7px;
+	left:7px;
+}
+
+
+/** задний кузов */
+.rear-body{
+	border-radius: 0px 300px 0px 4px / 153px 295px 0px 4px;
+	width: 150px;
+	height: 150px;
+	border:15px solid #cb270a;
+	position: relative;
+	top: -220px;
+	left: 715px;
+	z-index: 17;
+}
+
+/** задний фонарь */
+.rear-light{
+	border-radius: 10px;
+	width: 20px;
+	height: 40px;
+	background-color:red;
+	box-shadow: 20px 0px 40px red;
+	position: relative;
+	left: 898px;
+	bottom: 230px;
+	z-index: 25;
+}
+ /** воздухозаборник */
+.air-intake{
+	background-color: #cb270a;
+	width: 40px;
+	height: 12px;
+	border-radius: 0px 20px 0px 0px;
+	position: relative;
+	left: 360px;
+	bottom: 295px;
+
+}
+
+
+/* * крышка бензобака */
+.tank-cap{
+	background-color: #000;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	position: relative;
+	left: 850px;
+	bottom: 280px;
+	z-index: 55;
+
+}

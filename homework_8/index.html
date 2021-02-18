@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>homework_7</title>
+	</head>
+	<body>
+		<div class="conteinar">
+			<header class="header">
+				<h1>BACGROUND</h1>
+					<p>Это универсальное CSS свойство позволяет одновременно задать несколько
+						параметров фона, а именно определить цвет,
+						установить фоновое изображение, задать начальное положение фонового
+						изображения, определить как будет повторяться
+						фоновое изображение, установить будет ли прокручиваться фоновое
+						изображение вместе с содержимым и масштабировать фоновое
+						изображение согласно заданным размерам. Так же значением свойства
+						background может быть указана градиентная заливка
+						фона.
+					</p>
+				<nav id="bacgraund" class="backgraund">
+					
+					<ul class="list">
+						<li>
+							<a href="#backgraund-color" class="link">BACKGRAUND-COLOR</a>
+						</li>
+						<li>
+							<a href="#backgraund-image" class="link">BACKGRAUND-IMAGE</a>
+						</li>
+						<li>
+							<a href="#bacgraund-repeat" class="link">BACKGRAUND-REPEAT</a>
+						</li>
+						<li>
+							<a href="#bacground-position" class="link">BACKGRAUND-POSITION</a>
+						</li>
+						<li>
+							<a href="#bacgraund-size" class="link">BACGRAUND-SIZE</a>
+						</li>
+						<li>
+							<a href="#bacgraund-attachment" class="link">BACGRAUND-ATTACHMENT</a>
+						</li>
+						<li>
+							<a href="#multiple__bacground" class="link">MULTIPLE BACGROUND</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<main>
+				<div id="backgraund-color" class="backgraund-color">
+					<h2>BACKGRAUND-COLOR</h2>
+					<p>
+						Определяет цвет фона элемента
+					</p>
+					<div class="backgraund-color__default">
+						<h4>По умолчанию (прозрачный)</h4>
+						<span class="red">CSS код:</span> <br>
+						<span>.block{</span> <br>
+						background: transparent; <br>
+						<span>}</span> <br>
+						Или: <br>
+						<span>.block{</span> <br>
+						background-color: transparent; <br>
+						<span>}</span>
+					</div>
+					<div class="backgraund-color__color">
+						<h4>Цветной</h4>
+						<span class="red">CSS код:</span> <br>
+						<span>.block{</span> <br>
+						background: #18b5a4; <br>
+						<span>}</span> <br>
+						Или: <br>
+						<span>.block{</span> <br>
+						background-color: #18b5a4; <br>
+						<span>}</span>
+					</div>
+					<div class="backgraund-color__rgb">
+						<h4>Цветной (rgb)</h4>
+						<span class="red">CSS код:</span> <br>
+						<span>.block{</span> <br>
+						background: rgb(24,181,164); <br>
+						<span>}</span> <br>
+						Или: <br>
+						<span>.block{</span> <br>
+						background-color:rgb(24,181,164); <br>
+						<span>}</span>
+					</div>
+					<div class="backgraund-color__rgba">
+						<h4>Цветной (rgba)</h4>
+						<span class="red">CSS код:</span> <br>
+						<span>.block{</span> <br>
+						background:rgb(204,109,21,0.6); <br>
+						<span>}</span> <br>
+						Или: <br>
+						<span>.block{</span> <br>
+						background-color:rgb(204,109,21,0.6); <br>
+						<span>}</span>
+					</div>
+				</div>
+				<div id="backgraund-image" class="backgraund-image">
+					<h2>BACKGRAUND-IMAGE</h2>
+						<p>
+							Устанавливает фоновое изображение для элемента либо задает градиентную
+							заливку
+						</p>
+						<div class="backgraund-image__foto">
+							<p>УСТАНАВЛИВАЕТ КАРТИНКУ</p>
+							CSS код: <br>
+							
+								.block{ <br>
+								background:rgb(25, 127, 182) url('../img/1-tesla.jpg'); <br>
+								} <br>
+								Или: <br>
+								.block{ <br>
+								background-image: url('../img/1-tesla.jpg'); <br>
+								} <br>
+							</div>
+						<div class="backgraund-image__linear">
+							<p>УСТАНАВЛИВАЕТ ЛИНЕЙНЫЙ ГРАДИЕНТ</p>
+							Градиентом называют плавный переход от одного цвета к другому, причём самих цветов и переходов между ними может быть
+							несколько. С помощью градиентов создаются самые причудливые эффекты веб-дизайна, например, псевдотрёхмерность, блики,
+							фон и др. Также с градиентом элементы смотрятся более симпатично, чем однотонные. <br>
+							CSS код: <br>
+							.block{ <br>
+							background-image: linear-gradient(to left, rgba(30,87,153,0), rgba(30,87,153,0.8), rgba(30,87,153,1),
+							rgba(30,87,153,1), rgba(41,137,216,1), rgba(30,87,153,1), rgba(30,87,153,1),
+							rgba(30,87,153,0.8),rgba(30,87,153,0)); <br> 
+							}
+						</div>
+						<div class="backgraund-image__radial">
+							<p>УСТАНАВЛИВАЕТ РАДИАЛЬНЫЙ ГРАДИЕНТ</p>
+							Радиальные по своему принципу похожи на линейные градиенты, но один цвет переходит в другой не вдоль прямой линии, а
+							словно круги по воде вокруг точки. <br>
+							Для составления градиентов и получения готового кода используется<span> <a target="_blank" href="https://www.colorzilla.com/gradient-editor/"> GRADIENT GENERATOR</a></span>
+							CSS код: <br>
+							.block{ <br>
+							background:background: radial-gradient(ellipse at center, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 10%,rgba(144,186,228,1)
+							25%,rgba(144,188,234,1) 37%,rgba(144,191,240,1) 50%,rgba(107,168,229,1) 58%,rgba(162,218,245,1) 83%,rgba(189,243,253,1)
+							100%); <br>
+							}
+						</div>
+				</div>
+				<div id="bacgraund-repeat" class="bacgraund-repeat">
+					<h2>BACGROUND-REPEAT</h2>
+					<p>
+						Определяет, как будет повторяться фоновое изображение, установленное с помощью свойства background-image <br> (по умолчанию repeat).
+					</p>
+					<div class="bacgraund-repeat__no-repeat">
+						<span>no-repeat</span> - <span class="ident"> Устанавливает одно фоновое изображение в элементе без его повторений, положение которого определяется
+						свойством background-position <br> (по умолчанию в левом верхнем углу). <br>background:greenyellow url('../img/car-1jpg.jpg') 0 0 no-repeat; </span> 
+					</div>
+					<div class="bacgraund-repeat__repeat">
+						<span>repeat</span> - Фоновое изображение повторяется по горизонтали и вертикали. <br>
+						background:greenyellow url('../img/car-1jpg.jpg') 0 0 repeat;
+					</div>
+					<div class="bacgraund-repeat__repeat-x">
+						<span>repeat-x </span> - Фоновый рисунок повторяется только по горизонтали. <br>background:greenyellow url('../img/car-1jpg.jpg') 0 0 repeat-x;
+					</div>
+					<div class="bacgraund-repeat__repeat-y">
+						<span>repeat-y</span> - Фоновый рисунок повторяется только по вертикали. <br>background:greenyellow url('../img/car-1jpg.jpg') 0 0 repeat-y;
+					</div>
+					<div class="bacgraund-repeat__space">
+						<span>space </span>- Изображение повторяется столько раз, чтобы полностью заполнить область; если это не удаётся, между картинками
+						добавляется пустое пространство. <br>background:greenyellow url('../img/car-1jpg.jpg') 0 0 space;
+					</div>
+					<div class="bacgraund-repeat__round">
+						<span>round</span> - Изображение повторяется так, чтобы в области поместилось целое число рисунков; если это не удаётся сделать, то
+						фоновые рисунки масштабируются. <br>background:greenyellow url('../img/car-1jpg.jpg') 0 0 space;
+					</div>
+					<div class="bacgraund-repeat__pattern">
+						<span>repeat и паттерное изображение</span> 
+						Для уменьшения веса страницы если возможно для заполнения фона используется паттерное изображение (это маленькая картинка вырезаная таким образом что её начало есть продолжением её конца) <br> background:greenyellow url('../img/bg_repeat.jpg') 0 0 repeat;
+						<div class="pattern__image">
+							Паттерное изображение
+						</div> 
+					</div>
+					<div class="bacgraund-repeat-x__pattern">
+						<span>repeat-x, repeat-y и паттерное изображение</span> <br>
+						background:url('../img/bg_repeat.jpg') 0 0 repeat-x,greenyellow
+						url('../img/bg_repeat.jpg') 0 0 repeat-y;
+						<div class="pattern__image">
+							Паттерное изображение
+						</div>
+					</div>
+				</div>
+				<div id="bacground-position" class="bacground-position">
+					<h2>BACKGRAUND-POSITION</h2>
+					<p>
+						Задает начальное положение фонового изображения, установленного с помощью свойства background-image, где первое значение (проценты-лутше при адаптиве, px, слово[left, center, right, top, bottom]) определяет расположение по горизонтали, второе - вертикали.
+					</p>
+					<div class="bacground-position__topleft">
+					<span>По умолчанию(top left, 0 0)</span> <br>
+					CSS код: <br>
+					.block{ <br>
+					background:rgb(153, 142, 142) url('../img/car-2png.png') 0 0 no-repeat; <br>
+					} <br>
+					Или: <br>
+					.block{ <br>
+					background:rgb(153, 142, 142) url('../img/car-2png.png') top left no-repeat; <br>
+					} <br>
+					Или: <br>
+					.block{ <br>
+					background-color:rgb(153, 142, 142);<br> 
+					background-image: url('../img/car-2png.png'); <br>
+					background-repeat: no-repeat; <br>
+					background-position: 0 0; <br>
+					} 
+					</div>
+					<div class="bacground-position__left">
+						<span>Слева по центру блока(left, 0 50%)</span> <br>
+						CSS код: <br>
+						.block{ <br>
+						background:rgb(153, 142, 142) url('../img/car-2png.png') left no-repeat; <br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background:rgb(153, 142, 142) url('../img/car-2png.png') 0 50% no-repeat; <br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background-color:rgb(153, 142, 142);<br>
+						background-image: url('../img/car-2png.png'); <br>
+						background-repeat: no-repeat; <br>
+						background-position: 0 50%; <br>
+						}
+					</div>
+					<div class="bacground-position__center">
+						<span> По центру блока(center, 50% 50%, 50%)</span> <br>
+						CSS код: <br>
+						.block{ <br>
+						background:rgb(153, 142, 142) url('../img/car-2png.png') center no-repeat; <br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background:rgb(153, 142, 142) url('../img/car-2png.png')  50% no-repeat; <br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background-color:rgb(153, 142, 142);<br>
+						background-image: url('../img/car-2png.png'); <br>
+						background-repeat: no-repeat; <br>
+						background-position: 50% 50%; <br>
+						}
+					</div>
+					<div class="bacground-position__right">
+						<span> В правом нижнем углу блока(right bottom, 100% 100%)</span> <br>
+						CSS код: <br>
+						.block{ <br>
+						background:rgb(153, 142, 142) url('../img/car-2png.png') right bottom no-repeat; <br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background:rgb(153, 142, 142) url('../img/car-2png.png') 100% 100% no-repeat; <br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background-color:rgb(153, 142, 142);<br>
+						background-image: url('../img/car-2png.png'); <br>
+						background-repeat: no-repeat; <br>
+						background-position: 100% 100%; <br>
+						}
+					</div>
+					<div class="bacground-position__position">
+						<span> Размещенеие по заданной позиции(50% 100%)</span> <br>
+						CSS код: <br>
+						.block{ <br>
+						background:rgb(153, 142, 142) url('../img/car-2png.png') 50% 100% no-repeat; <br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background:rgb(153, 142, 142) url('../img/car-2png.png') 50% 100% no-repeat; <br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background-color:rgb(153, 142, 142);<br>
+						background-image: url('../img/car-2png.png'); <br>
+						background-repeat: no-repeat; <br>
+						background-position: 50% 100%; <br>
+						}
+					</div>
+				</div>
+				<div id="bacgraund-size" class="bacgraund-size">
+					<h2>BACGRAUND-SIZE</h2>
+					<p>
+						Масштабирует фоновое изображение согласно заданным размерам.
+						(значение) - Задает размер в любых доступных для CSS единицах.
+							(проценты) - Задает размер фоновой картинки в процентах от ширины или высоты элемента.Либо специальным значением (auto, contain, cover).
+					</p>
+					<div class="bacgraund-size__autoauto">
+						<span> Pазмер картинки по умолчанию (auto auto)</span> <br> Если задано одновременно для ширины и высоты (auto auto), размеры фона остаются исходными;<br>
+						CSS код: <br>
+						.block{<br>
+						background:rgb(201, 27, 14,0.5) url('../img/car-1jpg.jpg') 0 50% /auto auto no-repeat;<br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background-image: url('../img/car-1jpg.jpg'); <br>
+						background-position: 0 50%; <br>
+						background-repeat: no-repeat; <br>
+						background-size: auto auto; <br>
+						}
+					</div>
+					<div class="bacgraund-size__widthauto">
+						<span> Размер картинки по ширине блока (100% auto)</span><br>
+						Если задан размер только для ширины картинки (100px auto), то размер высоты вычисляется автоматически исходя из пропорций картинки. <br>
+						CSS код: <br>
+						.block{<br>
+						background:rgb(201, 27, 14,0.5) url('../img/car-1jpg.jpg') 0 100% /100% auto no-repeat;<br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background-image: url('../img/car-1jpg.jpg'); <br>
+						background-position: 0 100%; <br>
+						background-repeat: no-repeat; <br>
+						background-size: 100% auto; <br>
+						}
+					</div>
+					<div class="bacgraund-size__heightauto">
+						<span> Размер картинки по высоте блока (auto 100% )</span><br>
+						Если задан размер только для высоты картинки (auto 100px ), то размер ширины вычисляется автоматически исходя из
+						пропорций картинки. <br>
+						CSS код: <br>
+						.block{<br>
+						background:rgb(201, 27, 14,0.5) url('../img/car-1jpg.jpg') -150 100% /auto 100% no-repeat; <br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background-image: url('../img/car-1jpg.jpg'); <br>
+						background-position: -150px 100%; <br>
+						background-repeat: no-repeat; <br>
+						background-size: auto 100% ; <br>
+						}
+					</div>
+					<div class="bacgraund-size__100">
+						<span> Размер  (100% 100% )</span><br>
+						 Расстягивает картинку на всю ширину и высоту блока<br>
+						CSS код: <br>
+						.block{<br>
+						background:rgb(201, 27, 14,0.5) url('../img/car-1jpg.jpg') 0 0 /100% 100% no-repeat; <br>
+						} <br>
+						Или: <br>
+						<span class="white">
+							.block{ <br>
+							background-image: url('../img/car-1jpg.jpg'); <br>
+							background-position: 0 0; <br>
+							background-repeat: no-repeat; <br>
+							background-size: auto 100% ; <br>
+							}
+						</span>
+					</div>
+					<div class="bacgraund-size__contain">
+						<span> Параметр contain </span><br>
+						Масштабирует изображение с сохранением пропорций таким образом, чтобы картинка целиком поместилась внутрь блока. То есть
+						по меньшей стороне картинки <br>
+						CSS код: <br>
+						.block{<br>
+						background:rgb(201, 27, 14,0.5) url('../img/car-1jpg.jpg') 0 0 /contain no-repeat; <br>
+						<span class="white">
+							} <br>
+							Или: <br>
+							.block{ <br>
+							background-image: url('../img/car-1jpg.jpg'); <br>
+							background-position: 0 0; <br>
+							background-repeat: no-repeat; <br>
+							background-size: contain ; <br>
+							}
+						</span>
+					</div>
+					<div class="bacgraund-size__cover">
+						<span> Параметр cover </span><br>
+						Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока. То
+						есть по большей стороне картинки <br>
+						CSS код: <br>
+						.block{<br>
+						background:rgb(201, 27, 14,0.5) url('../img/car-1jpg.jpg') 0 0 /cover no-repeat; <br>
+							} <br>
+							Или: <br>
+							.block{ <br>
+							<span class="white">
+							background-image: url('../img/car-1jpg.jpg'); <br>
+							background-position: 0 0; <br>
+							background-repeat: no-repeat; <br>
+							background-size: cover ; <br>
+							}
+						</span>
+					</div>
+					<div class="bacgraund-size__px">
+						<span>  Конкретный размер (300px 400px )</span><br>
+						Установленные конкретные размеры из двух значений через пробел задает ширину и высоту фоновой
+						картинки<br>
+						CSS код: <br>
+						.block{<br>
+						background:rgb(201, 27, 14,0.5) url('../img/car-1jpg.jpg') 0 0 /300px 400px no-repeat; <br>
+						} <br>
+						Или: <br>
+							.block{ <br>
+							background-image: url('../img/car-1jpg.jpg'); <br>
+							background-position: 0 0; <br>
+							background-repeat: no-repeat; <br>
+							background-size: 300px 400px ; <br>
+							}
+							</div>
+				</div>
+				<div id="bacgraund-attachment" class="bacgraund-attachment">
+					<h2>BACGRAUND-ATTACHMENT</h2>
+					<p>
+						Устанавливает, будет ли прокручиваться фоновое изображение вместе с содержимым элемента.
+					</p>
+					<div class="bacgraund-attachment__scroll">
+						<span>По умолчанию (scroll)</span> <br> Позволяет перемещаться фону вместе с окном браузера background: 
+						CSS код: <br>
+						.block{ <br>
+						background: url('../img/car-3jpg.jpg') 0 0 no-repeat scroll; <br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background-image: url('../img/car-3jpg.jpg'); <br>
+						background-repeat: no-repeat;<br>
+						background-position: 0 0; <br>
+						background-attachment: scroll; <br>
+						}
+					</div>
+					<div class="bacgraund-attachment__fixed">
+						<span>fixed</span> <br> Делает фоновое изображение элемента неподвижным, а так же устанавливает фоновое изображение относительно окна браузера. <br> 
+						CSS код: <br>
+						.block{ <br>
+						background: url('../img/car-3jpg.jpg') 0 0 no-repeat fixed; <br>
+						} <br>
+						Или: <br>
+						.block{ <br>
+						background-image: url('../img/car-3jpg.jpg'); <br>
+						background-repeat: no-repeat;<br>
+						background-position: 0 0; <br>
+						background-attachment: fixed; <br>
+						}
+					</div>
+				</div>
+				<div id="multiple__bacground" class="multiple__bacground">
+					<h2>MULTIPLE BACGROUND</h2>
+					<p>Несколько картинок в одном блоке <br>background: url('../img/car1-1.jpg') 50% no-repeat, <br> url('../img/bg_repeat.jpg') 0 0 repeat-x, <br> url('../img/bg_repeat.jpg')
+					0 100% repeat-x, <br> url('../img/bg_repeat.jpg') 0 0 repeat-y, <br> url('../img/bg_repeat.jpg') 100% 0 repeat-y ; </p>
+					<div class="multiple__bacground-1">
+						
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<ul class="list-1">
+					<li>
+						<a href="#backgraund-color" class="link-1">BACKGRAUND-COLOR</a>
+					</li>
+					<li>
+						<a href="#backgraund-image" class="link-1">BACKGRAUND-IMAGE</a>
+					</li>
+					<li>
+						<a href="#bacgraund-repeat" class="link-1">BACKGRAUND-REPEAT</a>
+					</li>
+					<li>
+						<a href="#bacground-position" class="link-1">BACKGRAUND-POSITION</a>
+					</li>
+					<li>
+						<a href="#bacgraund-size" class="link-1">BACGRAUND-SIZE</a>
+					</li>
+					<li>
+						<a href="#bacgraund-attachment" class="link-1">BACGRAUND-ATTACHMENT</a>
+					</li>
+					<li>
+						<a href="#multiple__bacground" class="link-1">MULTIPLE BACGROUND</a>
+					</li>
+				</ul>
+				<a href="#bacgraund" class="button">
+					<span class="text">BACGROUND</span>
+				</a>
+			</footer>
+		</div>
+	</body>
