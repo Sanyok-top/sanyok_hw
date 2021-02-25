@@ -427,7 +427,39 @@ margin: 0px 0px 62px 0px;
 	font-size: 16px;
 	line-height: 26px;
 	color: #9A9A9A;
+}
 
+/* ! блок exposition-frispes ( иконки без CSS) */
+
+.frisp-exp {
+}
+.frisp-exp__container {
+	margin: 0px auto 50px; 
+	width: 1186px;
+}
+.frisp-exp__row {
+
+}
+.frisp-exp__colum {
+	display: inline-block;
+	margin: 0px 124px 64px 0px;
+
+}
+.frisp-exp__icon {
+	display: inline-block;
+	margin: 0px 24px 0px 0px;
+}
+.frisp-exp__amount {
+	display: inline-block;
+	/* margin: 50px 0px 0px 0px; */
+	padding: 0px 0px 0px 0px;
+}
+.amount {
+}
+.frisp-exp__object {
+	margin: 0px 0px 0px 55px;
+}
+.object {
 }
 
 /* * блок frispes-footer */
