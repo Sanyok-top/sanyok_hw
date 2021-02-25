@@ -66,15 +66,13 @@ textarea {
 }
 
 .frispes__container{
-	/* margin: 0px auto;
-	width: 1186px; */
+	
 }
 
 .frispes-header {
 }
 .frispes-header__container {
-	margin: 0px auto;
-	width: 1186px;
+	
 }
 .frispes-header__menu {
 }
@@ -122,8 +120,15 @@ margin: 0px 0px 62px 0px;
 .frispes-main {
 
 }
+
+/* ? _container (технический класс) */
+._container{
+	margin: 0px auto 50px;
+	width: 1186px;
+}
+
 /* ? краткое содержание текст (блок (для Микс)) */
-.summary-text {
+._summary-text {
 	position: relative;
 	display: inline-block;
 	font-family:Lato, serif;
@@ -132,19 +137,19 @@ margin: 0px 0px 62px 0px;
 	padding: 0px 15px 0px 0px;
 }
 /* ? заголовок (блок (для Микс)) */
-.title {
+._title {
 	font-family:Lora, serif;
 	font-weight: 700;
 	
 }
 /* ? информационный текст (блок (для Микс)) */
-.info-text {
+._info-text {
 	font-family:Lato, serif;
 	font-size: 20px;
 	font-weight: 400;
 }
 /* ? количество для exposition-frispes (блок (для Микс)) */
-.amount{
+._amount{
 	font-family: Lora;
 	font-style: normal;
 	font-weight: normal;
@@ -155,7 +160,7 @@ margin: 0px 0px 62px 0px;
 }
 
 /* ? обект для exposition-frispes(блок (для Микс)) */
-.object{
+._object{
 	font-family: Lato;
 	font-style: normal;
 	font-weight: normal;
@@ -170,10 +175,7 @@ margin: 0px 0px 62px 0px;
 	
 }
 .co-working__container {
-	margin: 0px auto 50px;
-	width: 1186px;
 	position: relative;
-	/* margin: 0px 0px 50px 0px; */
 }
 .co-working__header {
 }
@@ -224,9 +226,7 @@ margin: 0px 0px 62px 0px;
 	position: relative;
 }
 .exposition-frispes__container{ 
-	margin: 0px auto 50px;
-	width: 1186px;
-	
+		
 }
 .exposition-frispes__row {
 	display: inline-block;
@@ -404,8 +404,7 @@ margin: 0px 0px 62px 0px;
 .franck-martin {
 }
 .franck-martin__container {
-	margin: 0px auto 50px;
-	width: 1186px;
+	
 }
 .franck-martin__foto {
 	margin: 0px 0px 14px 0px;
